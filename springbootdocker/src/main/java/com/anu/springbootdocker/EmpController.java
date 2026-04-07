@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class EmpController {
     @GetMapping("/hello")
     public String getName(){
-        return "Hello this is spring";
+        System.out.println("Hello Spring boot");
+        return "Hello this is spring boot";
     }
 }
