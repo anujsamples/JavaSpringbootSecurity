@@ -8,8 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class EmpController {
     @GetMapping("/hello")
-    public String getName(){
+    public String getName() {
 
-        return "Hello this is spring boot";
+        return "Hello this is spring boot 3.0.5 docker image";
+
     }
 }
